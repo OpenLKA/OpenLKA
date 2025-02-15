@@ -1,0 +1,123 @@
+[
+    {
+        "name": "frame_0",
+        "frame": "frame_0000.jpg",
+        "binary": "binary_0000.jpg",
+        "instance": "instance_0000.jpg",
+        "scene_description": "Partly Cloudy - The sky shows some cloud cover, but sunlight is still present, casting moderate shadows. Daytime - Normal - The scene is evenly lit with no extreme brightness or darkness issues. Dry - The pavement appears free from moisture or reflective patches. Urban Road - The presence of traffic signals and nearby buildings suggests a city street environment. Faded - Lane lines are visible but appear worn and less distinct in certain areas. Intersection - The presence of cross streets and potential turning arrows indicates an intersection.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. Located the issue area on both left and right lanes where lane lines are faded. 2. Evaluated potential causes: - Faded Laneline: Confirmed as the markings are visibly worn. - Pavement-Laneline Contrast: Low contrast due to faded lines. 3. Selected Faded Laneline as the primary cause due to visible wear. 4. Supported by evidence from the <Raw Frame> and <Binary Mask>.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. Located the issue area on the right lane where the Right Laneline is missing segments. 2. Evaluated potential causes: - Faded Laneline: Confirmed as markings appear worn. - Pavement-Laneline Contrast: Confirmed as low contrast is evident. 3. Selected the primary cause as a combination of Faded Laneline and Pavement-Laneline Contrast. 4. Supported conclusion with visual evidence from the <Raw Frame>. "
+    },
+    {
+        "name": "frame_1",
+        "frame": "frame_0001.jpg",
+        "binary": "binary_0001.jpg",
+        "instance": "instance_0001.jpg",
+        "scene_description": "Partly Cloudy - The sky shows some cloud cover, but there is still sunlight visible, casting moderate shadows on the road. Daytime - Normal - The scene is evenly lit with natural daylight, providing clear visibility without any extreme brightness or darkness. Dry - The pavement appears free from moisture, with no visible reflections or wet patches. Urban Road - The presence of traffic signals, crosswalks, and nearby buildings suggests a city street environment. Faded - The lane lines are visible but appear worn out in certain areas, indicating partial visibility. Intersection - The road markings change, indicating a cross street intersection with potential turning arrows.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. **Locate the issue area**: Detection failure occurs on both the left and right lanes, particularly in the middle sections where lane lines are faded. 2. **Cross-check potential causes**: Evaluated faded lanelines and pavement-laneline contrast as potential causes. 3. **Select the best-matching reason**: Faded Laneline is identified as the primary cause due to visible wear and low contrast. 4. **Provide evidence-based reasoning**: The <Raw Frame> shows visibly worn lane lines, and the <Binary Mask> fails to capture these lines fully, indicating faded markings as the primary issue.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. **Locate the issue area**: The detection failure is primarily on the right side of the road, where the right laneline is partially missing. 2. **Cross-check potential causes**: - **Faded Laneline**: The right laneline appears worn and less visible in the <Raw Frame>. - **Laneline Occlusion**: No significant occlusion is visible. - **Pavement-Laneline Contrast**: The contrast is low, making the laneline blend with the road surface. - **Insufficient Light**: Not applicable, as the lighting is normal. - **Sun Glaring**: No glaring issues are present. - **Laneline Transition**: No transitions are affecting the right laneline. - **Road Splices and Cracks**: Not visibly affecting the right laneline. 3. **Select the best-matching reason**: The primary cause is **Pavement-Laneline Contrast**, where the right laneline's color is too similar to the road surface, reducing visibility. 4. **Provide evidence-based reasoning**: The <Raw Frame> shows the right laneline blending with the road, supported by the <Binary Mask> showing incomplete detection."
+    },
+    {
+        "name": "frame_2",
+        "frame": "frame_0002.jpg",
+        "binary": "binary_0002.jpg",
+        "instance": "instance_0002.jpg",
+        "scene_description": "Partly Cloudy - The sky shows some cloud cover, but sunlight is still present, casting moderate shadows. Daytime - Normal - The scene is evenly lit with no extreme brightness or darkness issues. Dry - The pavement appears free from moisture or reflective patches. Urban Road - The presence of traffic signals and nearby buildings suggests a city street environment. Faded - Lane lines are visible but appear worn and less distinct in certain areas. Intersection - The presence of cross streets and potential turning arrows indicates an intersection.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. Located the issue area on the right lane where markings are less visible. 2. Evaluated potential causes, identifying faded lanelines and low contrast as primary issues. 3. Selected faded laneline as the main reason for detection failure. 4. Supported conclusion with visual evidence from the <Raw Frame> and <Binary Mask>.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. Located the issue area on the right lane where the right laneline is missing segments. 2. Evaluated potential causes: - Faded Laneline: Contributed to detection issues. - Pavement-Laneline Contrast: Identified as the primary cause due to blending with the pavement. 3. Selected Pavement-Laneline Contrast as the main reason, supported by visual evidence in the <Raw Frame> and <Binary Mask>. "
+    },
+    {
+        "name": "frame_3",
+        "frame": "frame_0003.jpg",
+        "binary": "binary_0003.jpg",
+        "instance": "instance_0003.jpg",
+        "scene_description": "The analyses consistently describe urban road settings with faded lane lines, often in intersections. The scenes are typically overcast or partly cloudy, with normal daylight conditions and dry pavements. The urban environment is characterized by traffic signals, crosswalks, and nearby buildings. The lane lines are worn, reducing their visibility and contrast against the road surface, especially in intersections where markings change or include turning arrows.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. Located the issue area in the left or right lane, particularly in the middle section of the <Raw Frame>.\n2. Evaluated potential causes:\n   - Faded Laneline: Supported by visible wear.\n   - Pavement-Laneline Contrast: Low contrast due to faded lines.\n3. Selected Faded Laneline as the primary cause, supported by visual evidence of worn markings and missing segments in the <Binary Mask>.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. Located the issue area on the right lane where markings are less visible.\n2. Evaluated potential causes:\n   - Faded Laneline: Right lane markings appear worn.\n   - Pavement-Laneline Contrast: Low contrast with the road surface.\n3. Selected the primary cause as a combination of Faded Laneline and Pavement-Laneline Contrast.\n4. Supported conclusion with visual evidence from the <Raw Frame>. "
+    },
+    {
+        "name": "frame_4",
+        "frame": "frame_0004.jpg",
+        "binary": "binary_0004.jpg",
+        "instance": "instance_0004.jpg",
+        "scene_description": "Partly Cloudy - The sky shows some cloud cover, but there is still visible sunlight casting moderate shadows on the road. Daytime - Normal - The scene is evenly lit with no extreme brightness or darkness, indicating typical daylight conditions. Dry - The road surface appears free from moisture or reflective patches, suggesting a dry condition. Urban Road - The presence of traffic signals, crosswalks, and nearby buildings indicates an urban environment. Faded - The lane lines are visible but appear worn out in certain areas, reducing their clarity. Intersection - The presence of cross streets and potential turning arrows suggests an intersection.",
+        "primary_reason": "Pavement-Laneline Contrast",
+        "primary_description": "1. Located the issue area on the right side of the road where the right laneline is partially missing. 2. Evaluated potential causes, identifying low contrast between the laneline and pavement as the primary issue. 3. Selected Pavement-Laneline Contrast as the main reason for detection failure, supported by visual evidence. 4. Provided evidence-based reasoning, highlighting the blending of the right laneline with the road surface.",
+        "secondary_reason": "Faded Laneline and Pavement-Laneline Contrast",
+        "secondary_decription": "1. **Locate the issue area**: The detection failure is primarily observed in the center of the road, affecting both the Left and Right Lanelines. 2. **Cross-check potential causes**: - **Faded Laneline**: The lane markings appear worn, contributing to detection issues. - **Laneline Occlusion**: No significant occlusion is visible. - **Pavement-Laneline Contrast**: The contrast between the lane lines and the pavement is low, making them hard to distinguish. - **Insufficient Light**: Not applicable, as the scene is well-lit. - **Sun Glaring**: No glaring is observed. - **Laneline Transition**: The intersection may cause temporary lane marking changes. - **Road Splices and Cracks**: Not visibly significant. - **Multiple Factors**: Faded Laneline and Pavement-Laneline Contrast are the primary contributors. 3. **Select the best-matching reason**: The primary cause is a combination of **Faded Laneline** and **Pavement-Laneline Contrast**, as the worn markings and low contrast make detection challenging. 4. **Provide evidence-based reasoning**: The <Raw Frame> shows visibly worn lane lines with low contrast against the road surface, supporting the conclusion."
+    },
+    {
+        "name": "frame_5",
+        "frame": "frame_0005.jpg",
+        "binary": "binary_0005.jpg",
+        "instance": "instance_0005.jpg",
+        "scene_description": "1. Overcast - The sky is covered with clouds, providing diffused lighting without strong shadows.\n2. Daytime - Normal - The image is evenly lit with no extreme brightness or darkness issues.\n3. Dry - The pavement appears free from moisture or reflective patches.\n4. Urban Road - Presence of traffic signals and buildings close to the road, indicating a city street environment.\n5. Faded - The lane lines are worn out but still partially visible in patches.\n6. Intersection - Cross streets intersect, and lane markings may change or have turning arrows.",
+        "primary_reason": "Multiple Factors",
+        "primary_description": "1. Located the issue area at the intersection, affecting both left and right lane lines.\n2. Evaluated potential causes: faded lanelines, occlusion by vehicles and shadows, and pavement-laneline contrast.\n3. Selected multiple factors as the primary cause due to the combination of faded lines and occlusion.\n4. Supported the conclusion with evidence from the <Raw Frame> showing faded and occluded lane lines.",
+        "secondary_reason": "Faded Laneline",
+        "secondary_decription": "1. **Locate the issue area**: The detection failure is primarily on the right lane, especially near the intersection.\n   - **Visible Factors**: The right lane markings are faded and partially occluded by shadows and other vehicles.\n\n2. **Cross-check potential causes**:\n   - **Faded Laneline**: The right lane markings appear worn and less distinct.\n   - **Laneline Occlusion**: Shadows and vehicles partially obscure the right lane markings.\n   - **Pavement-Laneline Contrast**: The faded markings blend with the road surface.\n\n3. **Select the best-matching reason**:\n   - **Primary Cause**: Faded Laneline - The primary reason for the detection failure is the worn-out condition of the right lane markings.\n\n4. **Provide evidence-based reasoning**:\n   - The <Raw Frame> shows faded right lane markings, supported by the <Binary Mask> where these markings are less prominent."
+    },
+    {
+        "name": "frame_6",
+        "frame": "frame_0006.jpg",
+        "binary": "binary_0006.jpg",
+        "instance": "instance_0006.jpg",
+        "scene_description": "1. Overcast - The sky is covered with clouds, providing soft, diffused lighting without strong shadows.\\n2. Daytime - Normal - The image appears evenly lit with no extreme brightness or darkness issues.\\n3. Dry - The pavement appears free from moisture or reflective patches.\\n4. Urban Road - The presence of traffic signals, crosswalks, and buildings close to the road indicate a city street environment.\\n5. Faded - The lane lines are worn out but still partially visible in patches.\\n6. Intersection - Cross streets intersect, and lane markings may change or have turning arrows.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. **Locate the issue area**: Detection failure occurs on both the left and right lanes, particularly in the middle sections where lane lines are faded.\\n2. **Cross-check potential causes**: Evaluated faded lanelines and pavement-laneline contrast as potential causes.\\n3. **Select the best-matching reason**: Faded Laneline is identified as the primary cause due to visible wear.\\n4. **Provide evidence-based reasoning**: The <Raw Frame> shows visibly worn lane lines, and the <Binary Mask> fails to capture these lines fully, indicating faded markings as the primary issue.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. Located the issue area on the right lane where markings are less visible.\\n2. Evaluated potential causes:\\n   - Faded Laneline: Contributing factor.\\n   - Pavement-Laneline Contrast: Primary cause due to low contrast.\\n3. Selected Pavement-Laneline Contrast as the primary reason.\\n4. Supported by visual evidence of worn-out lines blending with the road surface."
+    },
+    {
+        "name": "frame_7",
+        "frame": "frame_0007.jpg",
+        "binary": "binary_0007.jpg",
+        "instance": "instance_0007.jpg",
+        "scene_description": "1. Overcast - The sky is covered with clouds, providing diffused lighting without strong shadows.\\n2. Daytime - Normal - The image is evenly lit with natural daylight, no extreme brightness or darkness issues.\\n3. Dry - The pavement appears free from moisture or reflective patches.\\n4. Urban Road - Presence of traffic signals, crosswalks, and buildings close to the road.\\n5. Faded - The lane lines are worn out but still partially visible in patches.\\n6. Intersection - Cross streets intersect, and lane markings may change or have turning arrows.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. Located the issue area in the middle sections of both left and right lanes where lines are faded.\\n2. Evaluated potential causes: \\n   - Faded Laneline: Confirmed as the markings are visibly worn.\\n   - Pavement-Laneline Contrast: Contributes to reduced visibility.\\n3. Selected Faded Laneline as the primary cause due to visible wear.\\n4. Supported by evidence from the <Raw Frame> and <Binary Mask> showing incomplete detection.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. **Locate the issue area**: The detection failure is primarily on the right side of the road, where the Right Laneline is missing segments.\\n2. **Cross-check potential causes**: \\n   - **Faded Laneline**: The Right Laneline appears worn, contributing to detection issues.\\n   - **Pavement-Laneline Contrast**: The contrast is low, making the line blend with the road surface.\\n3. **Select the best-matching reason**: The primary cause is **Pavement-Laneline Contrast**, with the faded condition of the Right Laneline exacerbating the issue.\\n4. **Provide evidence-based reasoning**: The <Raw Frame> shows the Right Laneline blending with the road surface, supported by the <Binary Mask> showing incomplete detection."
+    },
+    {
+        "name": "frame_8",
+        "frame": "frame_0008.jpg",
+        "binary": "binary_0008.jpg",
+        "instance": "instance_0008.jpg",
+        "scene_description": "1. Overcast - The sky is covered with clouds, providing soft, diffused lighting without strong shadows.\\n2. Daytime - Normal - The image appears evenly lit with no extreme brightness or darkness issues.\\n3. Dry - The pavement appears free from moisture or reflective patches.\\n4. Urban Road - The presence of traffic signals, crosswalks, and buildings close to the road indicates an urban setting.\\n5. Faded - The lane lines are worn out but still partially visible in patches.\\n6. Intersection - Cross streets intersect, and lane markings may change or have turning arrows.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. **Locate the issue area**: The detection failure occurs primarily on the right lane, particularly in the middle section of the <Raw Frame>.\\n   - **Visible Factors**: The lane markings are faded and blend with the road surface, making them hard to distinguish.\\n\\n2. **Cross-check potential causes**:\\n   - **Faded Laneline**: The markings are visibly worn and nearly invisible.\\n   - **Pavement-Laneline Contrast**: The laneline color is too similar to the surrounding pavement.\\n   - **Insufficient Light**: Not applicable as the scene is evenly lit.\\n   - **Sun Glaring**: Not applicable due to overcast conditions.\\n   - **Laneline Transition**: Not applicable as there are no merges or diverges.\\n   - **Road Splices and Cracks**: Not observed in the <Raw Frame>.\\n\\n3. **Select the best-matching reason**:\\n   - **Primary Cause**: Faded Laneline - The most critical factor is the physical wear of the lane markings.\\n\\n4. **Evidence-based reasoning**:\\n   - The <Raw Frame> shows faded lane lines that blend with the road surface, supporting the conclusion of faded lanelines as the primary cause.",
+        "secondary_reason": "Laneline Occlusion",
+        "secondary_decription": "1. **Locate the issue area**: The detection failure occurs on both the left and right lanes, particularly in the middle section of the <Raw Frame>.\\n   - **Visible Factors**: The lane markings are faded and partially occluded by shadows and other vehicles.\\n\\n2. **Cross-check potential causes**:\\n   - **Faded Laneline**: The markings are visibly worn and nearly invisible in some areas.\\n   - **Laneline Occlusion**: Vehicles and shadows partially block the lane lines.\\n   - **Pavement-Laneline Contrast**: The faded lines blend with the road surface.\\n\\n3. **Select the best-matching reason**:\\n   - **Multiple Factors**: The primary cause is a combination of faded lanelines and occlusion by vehicles and shadows.\\n\\n4. **Provide evidence-based reasoning**:\\n   - The <Raw Frame> shows faded lane markings with partial occlusion by vehicles and shadows, supporting the conclusion of multiple contributing factors."
+    },
+    {
+        "name": "frame_9",
+        "frame": "frame_0009.jpg",
+        "binary": "binary_0009.jpg",
+        "instance": "instance_0009.jpg",
+        "scene_description": "1. Overcast - The sky is covered with clouds, providing soft, diffused lighting without strong shadows.\n2. Daytime - Normal - The image appears evenly lit with no extreme brightness or darkness issues.\n3. Dry - The pavement appears free from moisture or reflective patches.\n4. Urban Road - Presence of traffic signals, crosswalks, and buildings close to the road.\n5. Faded - Lines are worn out but still partially visible in patches.\n6. Intersection - Cross streets intersect; lane markings may change or have turning arrows.",
+        "primary_reason": "Faded Laneline combined with Pavement-Laneline Contrast",
+        "primary_description": "1. Located the issue area on the right lane where markings are less visible.\n2. Evaluated potential causes:\n   - Faded Laneline: Right lane markings are worn.\n   - Pavement-Laneline Contrast: Low contrast with road surface.\n3. Selected Faded Laneline and Pavement-Laneline Contrast as primary causes.\n4. Supported by visible cues of worn and blending markings in the <Raw Frame>.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. Located the issue area on the right lane where markings are less visible.\n2. Evaluated potential causes:\n   - Faded Laneline: Contributing factor.\n   - Pavement-Laneline Contrast: Primary issue due to low contrast.\n3. Selected Pavement-Laneline Contrast as the primary cause.\n4. Supported by evidence of faded and low-contrast lane lines in the <Raw Frame>."
+    },
+    {
+        "name": "frame_10",
+        "frame": "frame_0010.jpg",
+        "binary": "binary_0010.jpg",
+        "instance": "instance_0010.jpg",
+        "scene_description": "Overcast - The sky is covered with clouds, providing soft, diffused lighting without strong shadows. Daytime - Normal - The image appears evenly lit with natural daylight, no extreme brightness or darkness issues. Dry - The pavement appears free from moisture or reflective patches, indicating a dry road surface. Urban Road - The presence of traffic signals, crosswalks, and buildings close to the road suggests an urban environment. Faded - The lane lines are worn out but still partially visible in patches, indicating some wear. Intersection - Cross streets intersect, and lane markings may change or have turning arrows.",
+        "primary_reason": "Faded Laneline",
+        "primary_description": "1. Located the issue area in the left lane, particularly in the middle section of the <Raw Frame>. 2. Evaluated potential causes: - Faded Laneline: Supported by visible wear. - Pavement-Laneline Contrast: Low contrast due to faded lines. 3. Selected Faded Laneline as the primary cause, supported by visual evidence of worn markings and missing segments in the <Binary Mask>.",
+        "secondary_reason": "Pavement-Laneline Contrast",
+        "secondary_decription": "1. Located the issue area on the right lane where the <Right Laneline> is less visible. 2. Evaluated potential causes, identifying low contrast and faded markings as primary issues. 3. Selected Pavement-Laneline Contrast as the main reason for detection failure. 4. Supported the conclusion with visual evidence from the <Raw Frame> showing faded and low-contrast right lane markings."
+    }
+]
