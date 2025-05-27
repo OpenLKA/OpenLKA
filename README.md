@@ -97,11 +97,14 @@ See **Issue #1 – Pre-Official Release Checklist** for detailed milestones (rev
 If you use OpenLKA, please cite **all** three companion papers:
 
 ```bibtex
-@article{wang2025openlka,
-  title   = {OpenLKA: An Open Dataset of Lane Keeping Assist from Recent Car Models under Real-world Driving Conditions},
-  author  = {Yuhang Wang and Shengming Yuan and Hao Zhou and et~al.},
-  journal = {IEEE Transactions on Intelligent Transportation Systems},
-  year    = {2025}
+@misc{wang2025openlkaopendatasetlane,
+      title={OpenLKA: an open dataset of lane keeping assist from market autonomous vehicles}, 
+      author={Yuhang Wang and Abdulaziz Alhuraish and Shengming Yuan and Shuyi Wang and Hao Zhou},
+      year={2025},
+      eprint={2501.03287},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2501.03287}, 
 }
 ```
 
