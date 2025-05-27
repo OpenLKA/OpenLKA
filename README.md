@@ -63,7 +63,6 @@ OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane K
 
 Links are temporarily hosted on Dropbox during the pre-official phase:
 
-* [EV subset](https://www.dropbox.com/scl/fo/z3iyagi4g04b1yn6pnylk/ALum3lMAZHpiJFNa7fxzfmM?rlkey=z3zdr7ohyanugctpoosmtwncl&dl=0)
 * [Normal driving](https://www.dropbox.com/scl/fo/2xoy6kwb3byedk12phadm/AK6YtCpBc-C-eezVT2ZDbWc?rlkey=qbbfbwaqve0ymk90bu6e8kg4n&dl=0)
 * [Failure scenarios](https://www.dropbox.com/scl/fo/ja3m1cdqd5kpm68kuarg4/AJJet0tCMThkzmmYwsIgpL4?rlkey=zkkb1zadhw9gr3ayz5a4wik67&dl=0)
 * [Alert subset](https://www.dropbox.com/scl/fo/jv5aj0qb1w6qzrd3vum4w/ALa0HR32eQM0Bg--hDf-GzQ?rlkey=tey9v0k1r22xo5thrj7qb15qh&dl=0)
