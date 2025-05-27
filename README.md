@@ -130,4 +130,4 @@ OpenLKA is released under the **MIT License**.
 
 ## ✉️ Contact
 
-Questions? Create an issue or email **[openlka@googlegroups.com](henryyuhangwang@gmail.com)**.
+Questions? Create an issue or email **[henryyuhangwang@gmail.com](henryyuhangwang@gmail.com)**.
