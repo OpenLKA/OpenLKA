@@ -98,7 +98,7 @@ See **Issue #1 – Pre-Official Release Checklist** for detailed milestones (rev
 
 ## 📣 Citation
 
-If you use OpenLKA, please cite **all** three companion papers:
+If you use OpenLKA, you can cite this:
 
 ```bibtex
 @misc{wang2025openlkaopendatasetlane,
