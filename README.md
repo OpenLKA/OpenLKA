@@ -72,7 +72,7 @@ Links are temporarily hosted on Dropbox during the pre-official phase:
 
 ---
 
-## 🚀 Quick start
+## 🚀 Quick start (**Not finished**)
 
 ```bash
 # Install dependencies
