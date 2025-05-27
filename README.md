@@ -26,7 +26,7 @@ OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane K
 
 [**OpenLKA: An Open Dataset of Lane Keeping Assist from Recent Car Models under Real-world Driving Conditions**](https://arxiv.org/pdf/2505.09092)
 
-![Dataset overview](docs/assets/openlka_overview.png)
+![Dataset overview](https://github.com/OpenLKA/OpenLKA/blob/main/static/images/OpenLKA_view.png)
 
 ---
 
@@ -34,7 +34,7 @@ OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane K
 
 [**Empirical Performance Evaluation of Lane Keeping Assist on Modern Production Vehicles**](https://arxiv.org/pdf/2505.11534)
 
-![Per-vehicle performance example](docs/assets/perception_laneline_contrast.png)
+![Per-vehicle performance example](https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAnalysis_Perception.png)
 
 ---
 
@@ -43,7 +43,11 @@ OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane K
 [**Bridging Human Oversight and Black-box Driver Assistance: Vision-Language Models for Predictive Alerting in Lane Keeping Assist Systems**](https://arxiv.org/pdf/2505.11535)
 
 <p align="center">
-  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="docs/assets/model_structure.png" width="45%">
+  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="[docs/assets/Dataset_Structure.png](https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_WordCloud.png)" width="45%">
+</p>
+
+<p align="center">
+  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="[docs/assets/model_structure.png](https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_ModelStructure.png)" width="45%">
 </p>
 
 ---
