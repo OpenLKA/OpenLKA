@@ -47,7 +47,7 @@ OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane K
 </p>
 
 <p align="center">
-  <img src="https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_ModelStructure.png" width="45%">
+  <img src="https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_ModelStructure.png" width="100%">
 </p>
 
 ---
