@@ -43,11 +43,11 @@ OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane K
 [**Bridging Human Oversight and Black-box Driver Assistance: Vision-Language Models for Predictive Alerting in Lane Keeping Assist Systems**](https://arxiv.org/pdf/2505.11535)
 
 <p align="center">
-  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="[docs/assets/Dataset_Structure.png](https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_WordCloud.png)" width="45%">
+  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_WordCloud.png" width="45%">
 </p>
 
 <p align="center">
-  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="[docs/assets/model_structure.png](https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_ModelStructure.png)" width="45%">
+  <img src="docs/assets/wordcloud_factors.png" width="45%">  <img src="https://github.com/OpenLKA/OpenLKA/blob/main/static/images/LKAlert_ModelStructure.png" width="45%">
 </p>
 
 ---
