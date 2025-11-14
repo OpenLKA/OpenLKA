@@ -2,6 +2,8 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  [![arXiv](https://img.shields.io/badge/arXiv-2505.09092-blue)](https://arxiv.org/abs/2505.09092)  [![Project Website](https://img.shields.io/badge/website-openlka.github.io-orange)](https://openlka.github.io)
 
+[Dataset Downloads](https://www.dropbox.com/scl/fo/fw3ok1d8t5qc31syp6nbn/ADxlRQsMjH4oNgVrLQBCAeo?rlkey=65mfgoqym5ozxt0oy8g9i45hf&st=8cmiofdn&dl=0)
+
 OpenLKA is the **first large-scale, open, real-world dataset** focused on Lane Keeping Assist (LKA) performance. It pairs high-frequency CAN signals with synchronized front-camera video and rich scenario annotations across multiple modern production vehicles and diverse roadway conditions.
 
 ---
