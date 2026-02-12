@@ -1,4 +1,4 @@
-# OpenLKA: An Open Dataset for Lane Keeping Assist Systems
+# OpenLCA: An Open Dataset for Lane Centering Assist Systems
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  [![arXiv](https://img.shields.io/badge/arXiv-2505.09092-blue)](https://arxiv.org/abs/2505.09092)  [![Project Website](https://img.shields.io/badge/website-openlka.github.io-orange)](https://openlka.github.io)
 
